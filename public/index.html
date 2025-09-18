@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>URL Summarizer</h1>
+        <p>Enter a URL to get a 5-line summary using the Gemini API.</p>
+        <form id="summarize-form">
+            <input type="url" id="url-input" placeholder="https://example.com" required>
+            <button type="submit" id="submit-button">Summarize</button>
+        </form>
+        <div id="result-container">
+            <h2>Summary</h2>
+            <div id="summary-output" class="summary-box">
+                <p>The summary will appear here...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
